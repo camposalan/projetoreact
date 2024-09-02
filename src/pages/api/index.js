@@ -19,7 +19,7 @@ export default function Api(){
 
     }
     async function buscarFilmes() {
-        let r = await axios.get('http://www.omdbapi.com/?apikey=7ba44d29&s=' + filme);
+        let r = await axios.get('https://www.omdbapi.com/?apikey=7ba44d29&s=' + filme);
         setResultadoFilmes(r.data.Search)
         
     }
