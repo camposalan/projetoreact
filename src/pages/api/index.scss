@@ -1,0 +1,61 @@
+.pagina-api{
+
+
+   
+
+    main{
+        padding: 20px;
+     
+    }
+    .correio{
+        font-size: 24px;
+    }
+    .correio input, .correio button{
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px 5px;
+    }
+    .hulk{
+        width: 400px;
+        height: 300px;
+    }
+    .filmes{
+        font-size: 24px;
+    }
+    .filmes input, .filmes button{
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px 5px;
+    }
+    .lista-filmes{
+        display: flex;
+        gap:30px;
+        flex-wrap: wrap;
+        
+    }
+    .card-filme{
+        display: flex;
+        gap: 20px;
+        border: 2px solid black;
+       
+        padding: 10px;
+
+        border-radius: 7px;
+
+        width: 600px;
+
+        background-color: black;
+        color: aliceblue;
+
+        img{
+            width: 200px;
+        }
+        h1{
+            font-size: 25px;
+        }
+
+    }
+
+
+}
+

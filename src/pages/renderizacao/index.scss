@@ -1,0 +1,50 @@
+
+.pagina-renderizacao{
+    font-size: 15px;
+
+    main{padding: 30px;}
+
+    button{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .brinde{
+        width: 200px;
+        display: block;
+        margin: 10px;
+        padding: 20px;
+        border: 2px solid black;
+        img{ width: 100px;}
+    }
+    .modal{
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100vw;
+        height: 100vh;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.377);
+
+        & div{
+            background-color: aliceblue;
+            width: 700px;
+            padding: 40px;
+            border-radius: 5px;
+            position: relative;
+
+
+            .fechar{
+                position: absolute;
+                right: 20px;
+                top: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+
+  
+
+}

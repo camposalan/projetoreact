@@ -1,0 +1,37 @@
+.pagina-app{
+  background-image:'/assets/images/pantera.jpeg';
+  text-align: center;
+
+  .menu{
+    
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .titulo{
+    color: rgb(104, 165, 38);
+  }
+  a{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius:3px ;
+  }
+  .hulk{
+    width: 500px;
+    height: 500px;
+   
+
+  }
+ 
+
+}
+
+
